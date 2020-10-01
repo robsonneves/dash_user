@@ -1,10 +1,10 @@
-package com.dash_user.dash_user;
+package br.com.dash_back;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DashUserApplicationTests {
+class DashBackApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -1,13 +1,13 @@
-package com.dash_user.dash_user;
+package br.com.dash_back;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DashUserApplication {
+public class DashBackApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DashUserApplication.class, args);
+		SpringApplication.run(DashBackApplication.class, args);
 	}
 
 }
