@@ -1,18 +1,19 @@
 package br.com.dash_back.entitys;
 
-import lombok.Builder;
+import lombok.*;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Column;
+import javax.persistence.*;
+import java.io.Serializable;
 
 @Entity
-@Builder
-public class User {
+@Getter
+@Setter
+public class User implements Serializable {
 
-    @GeneratedValue
+    private static final long serialVersionUID = 1L;
+
     @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private int id;
 
     @Column(name = "name")
