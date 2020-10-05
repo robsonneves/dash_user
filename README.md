@@ -1,15 +1,15 @@
 
-Java  11
-Spring-boot Web
-Lombok
+* Java  11
+* Spring-boot Web
+* Lombok
 
-Cucumber
-Junit
-Gherkin
+* Cucumber
+* Junit
+* Gherkin
 
-JPA
-H2
+* JPA
+* H2
 
 ==============
 
-Crud User
+* Crud User
